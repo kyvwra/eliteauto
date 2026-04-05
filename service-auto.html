@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servicii Auto | Elite</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-left"><a href="index.html" class="nav-link" style="font-size:12px; letter-spacing:2px;"><i class="fa-solid fa-arrow-left"></i> ACASĂ</a></div>
+    <div class="nav-center">
+      <span class="nav-link"><i class="fa-brands fa-instagram"></i> INSTAGRAM</span>
+      <span class="nav-link"><i class="fa-solid fa-phone"></i> APELEAZĂ</span>
+    </div>
+    <div class="nav-right">
+      </div>
+  </nav>
+
+  <div class="side-menu-overlay" id="sideMenuOverlay"></div>
+  <div class="side-menu" id="sideMenu">
+    <button class="close-menu" id="closeMenuBtn">✕</button>
+    <div class="menu-content">
+      <h3 class="menu-title">MENIU PRINCIPAL</h3>
+      <ul class="main-nav-list">
+        <li><div class="nav-item-wrapper"><a href="service-auto.html" class="nav-link-main">SERVICII AUTO</a></div></li>
+        <li><div class="nav-item-wrapper"><a href="detailing.html" class="nav-link-main">DETAILING AUTO</a></div></li>
+        <li><div class="nav-item-wrapper"><a href="galerie.html" class="nav-link-main">PORTOFOLIU / GALERIE</a></div></li>
+        <li><div class="nav-item-wrapper"><a href="despre-noi.html" class="nav-link-main">DESPRE NOI & FAQ</a></div></li>
+      </ul>
+    </div>
+  </div>
+
+  <header class="hero" style="height: 40vh; background: linear-gradient(to bottom, rgba(20,20,20,0.8), var(--bg-deep)), url('https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=1920&auto=format&fit=crop') center/cover;">
+    <div class="smoke-overlay"></div>
+    <div class="hero-content scroll-appear" style="margin-top: 50px;">
+      <h1 class="hero-title" style="font-size: 35px;">SERVICII <span class="glow-text">AUTO</span></h1>
+    </div>
+  </header>
+
+  <section class="services-menu scroll-appear">
+    <div class="menu-list">
+      
+      <div class="service-block" id="diagnoza">
+        <div class="service-header"><h3>Diagnoză Auto</h3></div>
+        <div class="variants-container">
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Diagnoză OBD2 Completă</span><p class="service-desc">Citire erori pe toate modulele mașinii.</p><span class="variant-price">100 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Ștergere Erori & Reset</span><p class="service-desc">Resetare interval service, plăcuțe, ulei.</p><span class="variant-price">50 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Adaptări & Codări</span><p class="service-desc">Activare funcții ascunse (VAG, VCDS, BimmerCode).</p><span class="variant-price">150 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Regenerare DPF Forțată</span><p class="service-desc">Curățare electronică a filtrului de particule.</p><span class="variant-price">250 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Testare Baterie & Alternator</span><p class="service-desc">Verificarea stării de sănătate a sistemului electric.</p><span class="variant-price">80 <small>RON</small></span></div></div>
+        </div>
+      </div>
+
+      <div class="service-block" id="mecanica">
+        <div class="service-header"><h3>Mecanică Auto</h3></div>
+        <div class="variants-container">
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Schimb Plăcuțe Frână</span><p class="service-desc">Preț manoperă pe o singură punte.</p><span class="variant-price">120 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Schimb Discuri Frână</span><p class="service-desc">Manoperă înlocuire discuri pe o punte.</p><span class="variant-price">200 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Înlocuire Kit Distribuție</span><p class="service-desc">Manoperă distribuție (preț de pornire).</p><span class="variant-price">800 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Înlocuire Kit Ambreiaj</span><p class="service-desc">Preț orientativ manoperă demontare cutie.</p><span class="variant-price">900 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Reparații Eșapament</span><p class="service-desc">Sudură sau înlocuire tobe (preț de la).</p><span class="variant-price">150 <small>RON</small></span></div></div>
+        </div>
+      </div>
+
+      <div class="service-block" id="revizie">
+        <div class="service-header"><h3>Revizie Auto</h3></div>
+        <div class="variants-container">
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Revizie Standard (Ulei+Filtre)</span><p class="service-desc">Manoperă înlocuire consumabile.</p><span class="variant-price">200 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Schimb Ulei Cutie Automată</span><p class="service-desc">Schimb cu aparat by-pass (flush complet).</p><span class="variant-price">600 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Înlocuire Lichid Frână</span><p class="service-desc">Aerisire sistem și schimb lichid cu aparat presiune.</p><span class="variant-price">150 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Completare/Schimb Antigel</span><p class="service-desc">Testare punct de îngheț și completare sistem.</p><span class="variant-price">80 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Încărcare Freon (Climatizare)</span><p class="service-desc">Vidare sistem, ulei compresor și freon (preț de pornire).</p><span class="variant-price">250 <small>RON</small></span></div></div>
+        </div>
+      </div>
+
+      <div class="service-block" id="vopsitorie">
+        <div class="service-header"><h3>Vopsitorie Auto</h3></div>
+        <div class="variants-container">
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Vopsitorie Per Element</span><p class="service-desc">Pregătire și vopsire la cuptor.</p><span class="variant-price">600 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Vopsire Integrală</span><p class="service-desc">Schimbare culoare sau reîmprospătare (preț de la).</p><span class="variant-price">7000 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Lăcuire Faruri</span><p class="service-desc">Mătuire și aplicare strat nou de lac UV.</p><span class="variant-price">250 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Retuș Zgârieturi Locale</span><p class="service-desc">Corecție vopsea la culoare cu aerograf.</p><span class="variant-price">150 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Vopsire Jante (Set 4)</span><p class="service-desc">Sablare, pregătire și vopsire electrostatică.</p><span class="variant-price">1000 <small>RON</small></span></div></div>
+        </div>
+      </div>
+
+      <div class="service-block" id="tinichingerie">
+        <div class="service-header"><h3>Tinichingerie Auto</h3></div>
+        <div class="variants-container">
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Îndreptare Element Înfundat</span><p class="service-desc">Reparație structură metalică (preț de la).</p><span class="variant-price">400 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Înlocuire Praguri</span><p class="service-desc">Tăiere, sudare și tratament anti-rugină (per parte).</p><span class="variant-price">800 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Îndreptare PDR (Fără Revopsire)</span><p class="service-desc">Scoatere îndoituri grindină (preț/element).</p><span class="variant-price">200 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Sudură Tobă / Traseu</span><p class="service-desc">Reparație specifică eșapament.</p><span class="variant-price">100 <small>RON</small></span></div></div>
+          <div class="variant-row"><div class="variant-info"><span class="service-name">Tratament Anti-Coroziv Șasiu</span><p class="service-desc">Curățare și aplicare ceară protectoare sub mașină.</p><span class="variant-price">900 <small>RON</small></span></div></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
